@@ -1,118 +1,72 @@
-# Welcome to the Weather App Template for `theappmarket.io` 👋
+# Welcome to My Weather App 👋
 
-This is a template for a weather app that will be made for the `theappmarket.io` platform, created with Expo. It includes basic features for a weather app, such as weather updates, and location-based forecasts.
+I built this Weather App using Expo. It delivers real-time weather updates and location-based forecasts in a simple, customizable interface.
 
-## Get started
+## Get started on your copy
 
-0. Make sure you have Node.js v22.6.0 or higher installed.
-   used node version : v22.12.0
+1. **Verify your Node.js version**: I developed with Node.js v22.12.0, but you can use v22.6.0 or higher.
 
-1. Install dependencies
+2. **Install dependencies**
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. **Launch the app**
 
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+   In the startup menu, choose one of these options to run the app:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+   - Development build
+   - Android emulator
+   - iOS simulator
+   - Expo Go (for quick testing)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+4. **Start coding**
 
-## Example Folder structure
+   Edit files under the **app** directory and see your changes live. This project uses file-based routing for easy navigation.
 
-Please refer and follow the folder structure below:
+## Example Folder Structure
 
 ```
 app/
-	├── (auth)/
-	│   ├── _layout.tsx
-	│   └── onboarding.tsx
-	├── (protected)/
-	├── (root)/
-	│   ├── _layout.tsx
-	│   └── home.tsx
-	├── _layout.tsx
-	├── +not-found.tsx
-	├── index.tsx
-	components/
-	├── ui/
-	│   ├── button/
-	│   │   └── index.tsx
-	│   └── ...
-	├── layouts/
-	│   ├── base/
-	│   │   └── index.tsx
-	│   ├── auth/
-	│   │   └── index.tsx
-	│   └── ...
-	├── shared/
-	│   ├── header/
-	│   │   └── index.tsx
-	│   ├── footer/
-	│   │   └── index.tsx
-	│   └── ...
-	├── screens/
-  │   ├── home/
-  │   │   ├── hero-section/
-  │   │   │   └── index.tsx
-  │   │   ├── feature-grid/
-  │   │   │   └── index.tsx
-  │   │   └── testimonials/
-  │   │       └── index.tsx
-  │   ├── profile/
-  │   │   ├── user-info/
-  │   │   │   └── index.tsx
-  │   │   ├── activity-feed/
-  │   │   │   └── index.tsx
-  │   │   └── settings-form/
-  │   │       └── index.tsx
-  └── ...
+├── (auth)/            # Onboarding and auth screens
+│   ├── _layout.tsx
+│   └── onboarding.tsx
+├── (protected)/       # Authenticated screens
+├── (root)/            # Main layout and home screen
+│   ├── _layout.tsx
+│   └── home.tsx
+├── _layout.tsx        # Global layout
+├── +not-found.tsx     # 404 fallback
+└── index.tsx          # Entry point
+components/
+├── ui/                # Reusable UI components (buttons, inputs, etc.)
+├── layouts/           # Layout wrappers (base, auth, etc.)
+└── shared/            # Header, footer, and other shared pieces
+screens/
+├── home/              # Home screen sections (hero, features, testimonials)
+└── profile/           # Profile sections (user-info, activity-feed, settings)
 assets/
-  ├── images/                    # Image assets
-  │   ├── common/                # Shared images across the app
-  │   │   ├── logo.png           # Shared logo image
-  │   │   └── icons/             # Shared icons
-  │   │       └── default-avatar.png  # Default avatar icon
-  │   ├── screens/               # Screen-specific images
-  │   │   ├── home/              # Images specific to Home screen
-  │   │   │   └── cover.png      # Home screen cover image
-  │   │   └── profile/           # Images specific to Profile screen
-  │   │       └── background.png # Profile background image
-  │   └── ...                    # Other image assets
-  ├── audio/                     # Audio assets
-  │   ├── asset1.mp3             # Example audio file
-  │   ├── asset2.mp3             # Another audio file
-  │   └── ...                    # Other audio assets
-  ├── video/                     # Video assets
-  │   ├── asset1.mp4             # Example video file
-  │   └── ...                    # Other video assets
-  └── fonts/                     # Font files
-      ├── Roboto/                # Roboto font files
-      │   ├── regular.ttf        # Regular font file
-      │   └── bold.ttf           # Bold font file
-      └── ...                    # Other font files
+├── images/            # Logos, icons, backgrounds
+├── audio/             # Sound assets
+├── video/             # Video assets
+└── fonts/             # Custom font files
 ```
+
+## Why this setup?
+
+- Expo-powered for fast iteration on Android, iOS, and web.
+- File-based routing keeps navigation intuitive.
+- Modular components so you can swap or extend features easily.
 
 ## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+For deeper dives into Expo and app development, check out Expo documentation or follow the Expo tutorial.
 
 ## Join the community
 
-Join our community of developers creating universal apps for `theappmarket.io`.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+I’d love to see what you build! Share your projects or questions in the Expo Discord community. Happy coding! 🎉
